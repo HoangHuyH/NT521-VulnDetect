@@ -48,7 +48,18 @@ Code Input → Property Graph (CPG) → PrVC Slicing → Feature Extraction → 
 
 ---
 
-## 📊 Dataset
+## � Project Structure & Usage
+
+The repository contains the following key notebooks for reproduction and experimentation:
+
+- **[train_custom_bert.py.ipynb](train_custom_bert.py.ipynb)**: Implementation of our proposed **GraphCodeBERT + GAT** fusion model.
+- **[train_bert.py.ipynb](train_bert.py.ipynb)**: Baseline implementation using standard **GraphCodeBERT** / BERT fine-tuning.
+- **[graphfvd.ipynb](graphfvd.ipynb)**: Implementation of the **GraphFVD** baseline model for comparison.
+- **[README.md](README.md)**: Main documentation file.
+
+---
+
+## �📊 Dataset
 
 Data was collected from the **National Vulnerability Database (NVD)** (NIST):
 
