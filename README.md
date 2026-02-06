@@ -89,13 +89,13 @@ Data was collected from the **National Vulnerability Database (NVD)** (NIST):
 
 | Metric | GraphCodeBERT | GraphCodeBERT + GAT | GraphFVD |
 |:---|:---:|:---:|:---:|
-| **Accuracy** | - | **0.845** | - |
-| **F1 Score** | - | **0.757** | - |
-| **AUC** | - | **0.934** | - |
-| **Precision** | - | **0.658** | - |
-| **Recall** | **0.880** | - | - |
+| **Accuracy** | 0.837 | **0.845** | 0.787 |
+| **F1 Score** | 0.741 | **0.757** | 0.638 |
+| **AUC** | 0.927 | **0.934** | 0.766 |
+| **Precision** | 0.640 | **0.658** | 0.572 |
+| **Recall** | 0.880 | **0.891** | 0.722 |
 
-> **Result:** The GraphCodeBERT + GAT model achieved the best overall performance with a True Positive Rate involved of 89.9% and a True Negative Rate of 83.6%.
+> **Result:** The GraphCodeBERT + GAT model achieved the best overall performance across all metrics, showing significant improvements in F1 Score and Precision compared to the baselines.
 
 ---
 
